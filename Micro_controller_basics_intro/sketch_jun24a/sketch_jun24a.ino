@@ -17,11 +17,11 @@ Adafruit_SSD1306 display(a, b, &Wire, reset);
 #define ledpin 4
 //Put your WiFi Credentials here
 const char* ssid = "Emmes pixel";
-const char* password = "Emmanuel282003#";
+const char* password = "***";
 String led_state="0";
 
 //URL Endpoint for the API
-String url_get= "https://api.telegram.org/bot7607920516:AAFRCranzKa6kVmbQ_9MeKDG6CVOD3vCOFs/getUpdates?chat_id=?707252389";
+String url_get= "***";
 
 // Replace with your location Credentials
 void display_text(String text, int x, int y) {
